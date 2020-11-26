@@ -2,11 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const passwords = require('./password_generation')
 
-
-
 const app = express()
-
-
 
 app.use(cors())
 
